@@ -1,0 +1,14 @@
+const SiteController = {}
+
+
+SiteController.Index = function(req, resp){
+  const welcomeMessage = "Welcome!"
+
+  resp.render("site/index", {welcome})
+
+}
+
+
+
+
+module.export = SiteController;
